@@ -1,4 +1,4 @@
-# 仅针对列表（list）的工具类及函数
+# 列表（list）的工具类及函数
 
 import heapq
 

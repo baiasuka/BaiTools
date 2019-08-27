@@ -1,3 +1,5 @@
+# 列表（list）的工具类及函数
+
 def dround(array, decimals=1):
     """
     对字典的值取n位小数
