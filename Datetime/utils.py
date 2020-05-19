@@ -33,7 +33,7 @@ def get_post_age(fst_date, snd_date):
     """
     fst_year = fst_date.year
     snd_year = snd_date.year
-    if round(fst_year//100) == round(snd_year//100):
+    if round(fst_year//10) == round(snd_year//10):
         age_half = round(fst_year//10)*10 + 5
         if fst_year > age_half and snd_year > age_half:
             return '都是' + str(age_half)[2:] + '后'
@@ -41,3 +41,4 @@ def get_post_age(fst_date, snd_date):
             return '都是' + str(round(fst_year//10)*10)[2:] + '后'
     else:
         return None
+
